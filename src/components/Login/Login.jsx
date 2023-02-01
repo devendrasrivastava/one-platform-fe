@@ -28,11 +28,7 @@ const Login = () => {
     const [emailError, setEmailError] = useState(``)
     const [passwordError, setPasswordError] = useState(``)
 
-    // var loginValidationStatus = false
-    // var db_id = ""
-    // var db_encryptedpwd = ""
-    // var emailId = false
-    // var db_username = ""
+    
 
     var db_username = ``;
     var db_email = ``;
@@ -66,14 +62,7 @@ const Login = () => {
         loginValidationStatus = await bcrypt.compare(password, db_encryptedpwd)
 
         if (username ==='' || password === '') {
-            // alert(`Please Fill all the details`)
-            // swal({
-            //     text: "Please fill all the details",
-            //     textcolor:"black",
-            //     icon: "warning",
-            //     confirmButtonText: "OK",
-            //   });
-
+    
               Swal.fire({
                 template: '#my-template',
                 icon: "warning",

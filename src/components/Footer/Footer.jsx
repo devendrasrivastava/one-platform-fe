@@ -6,16 +6,16 @@ export default function Footer() {
     <div>
       <footer class="text-center text-lg-start" style={{backgroundColor: "#009FAC"}}>
     <div class="container d-flex justify-content-center py-5">
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#0C0308"}}>
         <i class="fab fa-facebook-f"></i>
       </button>
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#0C0308"}}>
         <i class="fab fa-youtube"></i>
       </button>
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#0C0308"}}>
         <i class="fab fa-instagram"></i>
       </button>
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#0C0308"}}>
         <i class="fab fa-twitter"></i>
       </button>
     </div>
