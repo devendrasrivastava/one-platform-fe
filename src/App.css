@@ -1,0 +1,46 @@
+ .App {
+  text-align: center;
+
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.container
+{
+ box-shadow: 5px;
+}
+
+*
+{
+
+  font-family: 'Dancing Script', cursive;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Oswald', sans-serif;
+
+ 
+}
+
