@@ -117,21 +117,7 @@ function TransferHistory() {
                           
 
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light text-white">
-                                <i class="fab fa-google-plus-g"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light text-white">
-                                <i class="fas fa-envelope-open-text"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light text-white">
-                                <i class="fas fa-align-justify"></i>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -155,11 +141,7 @@ function TransferHistory() {
                                    
                                 </li>
 
-                                <Nav.Link onClick={routetotrasanct} class="nav-link px-0 align-middle" style={{ color: "black" }}>
-                                    <span class="ms-1 d-none d-sm-inline">Transactions
-
-
-                                    </span></Nav.Link>
+                               
                                     <Nav.Link onClick={RouteToTransfer} class="nav-link px-0 align-middle" style={{ color: "black" }}>
                                     <span class="ms-1 d-none d-sm-inline">Transfers
 

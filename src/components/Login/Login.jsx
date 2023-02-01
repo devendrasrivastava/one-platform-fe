@@ -8,10 +8,7 @@ import Swal from 'sweetalert2';
 
 
 const Login = () => {
-   
-    
 
-// code 2
     const navigate = useNavigate();
 
     const RouteToSignUp = () => {
@@ -141,7 +138,8 @@ const Login = () => {
                             {emailError}
 
                             </Form.Control.Feedback>
-                            
+                            <br/>
+                
                         </FloatingLabel>
                         <FloatingLabel controlId="floatingPassword" label="Password" className='mb-3' >
                             <Form.Control type="password" placeholder="Password" onChange={(e)=> setPassword(e.target.value) } 

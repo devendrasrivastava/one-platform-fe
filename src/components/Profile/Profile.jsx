@@ -121,11 +121,7 @@ function logout() {
                                  
                                 </li>
 
-                                <Nav.Link onClick={routetotrasanct} class="nav-link px-0 align-middle" style={{ color: "black" }}>
-                                    <span class="ms-1 d-none d-sm-inline">Transactions
-
-
-                                    </span></Nav.Link>
+                                
                                     <Nav.Link onClick={RouteToTransfer} class="nav-link px-0 align-middle" style={{ color: "black" }}>
                                      <span class="ms-1 d-none d-sm-inline">Transfers
 
