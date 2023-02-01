@@ -47,6 +47,7 @@ export default function Contactus() {
                                 align="center"
                                 color="text.primary"
                                 gutterBottom
+                                style={{  color: '#009FAC' }}
                             >
                                 Happy to Help!
                             </Typography>
@@ -78,7 +79,8 @@ export default function Contactus() {
                                                 //   pt: '0.25%',
                                                 height: '60vh'
                                             }}
-                                            image="./assets/contact1.jpg"
+                                            // image="./assets/contact1.jpg"
+                                            image="https://source.unsplash.com/900x600/?call center"
                                             alt="random"
                                         />
                                         <CardContent sx={{ flexGrow: 1 }}>

@@ -49,11 +49,6 @@ const Login = () => {
     for (let i = 0; i < userDetails.length; i++) {
         if (username.toLowerCase() === (userDetails[i].id).toLowerCase()) {
 
-            // db_id = userDetails[i].emailid;
-            // db_encryptedpwd = userDetails[i].password;
-            // db_username = userDetails[i].username;
-            // emailId = true
-
             db_username = userDetails[i].id;
             db_email = userDetails[i].emailid;
             db_encryptedpwd = userDetails[i].password;
@@ -126,9 +121,6 @@ const Login = () => {
               
 
         }
-
-
-
 
         else {
             // alert(`Password doesnt match our records`)

@@ -19,7 +19,7 @@ function Linkedaccounts() {
     <div>
 
 <p>
-  <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style={{background:"#5A287D",color:"white"}}>
+  <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style={{background:"#009FAC",color:"white"}}>
     View Linked Accounts
   </a>
   </p>

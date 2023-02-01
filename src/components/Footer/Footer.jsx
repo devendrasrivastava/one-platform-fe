@@ -4,48 +4,30 @@ import './Footer.css'
 export default function Footer() {
   return (
     <div>
+      <footer class="text-center text-lg-start" style={{backgroundColor: "#009FAC"}}>
+    <div class="container d-flex justify-content-center py-5">
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+        <i class="fab fa-facebook-f"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+        <i class="fab fa-youtube"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+        <i class="fab fa-instagram"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: "#42145F"}}>
+        <i class="fab fa-twitter"></i>
+      </button>
+    </div>
+    {/* <!-- Copyright --> */}
+    <div class="text-center text-white p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+      © 2023 Copyright:
+      <a class="text-white" href="/">Created by Deepankar & Devendra</a>
+    </div>
+    {/* <!-- Copyright --> */}
+  </footer>
+{/* </div> */}
 
-
-
-
-
-
-<footer>
-<div class="top_header">
-<section>
-<span><i class="fa fa-map-marker"></i></span>
-<span>Street, full address, state/province, country, pincode</span>
-</section>
-<section>
-<span><i class="fa fa-phone"></i></span>
-<span>(00) 0000 0000</span>
-</section>
-<section>
-<span><i class="fa fa-envelope"></i></span>
-<span>info@websitename.com</span>
-</section>
-</div>
-<span class="border-shape"></span>
-<div class="bottom_content">
-<section>
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-telegram"></i></a>
-</section>
-<section>
-<a href="#">Home</a>
-<a href="#">About us</a>
-<a href="#">Order</a>
-<a href="#">Retail</a>
-<a href="#">Member</a>
-<a href="#">Contact Us</a>
-</section>
-</div>
-<div class="copyright">
-Copyright © 2021 websitename - All rights reserved 
-</div>
-</footer>
 
     </div>
   )

@@ -29,7 +29,8 @@ export default function MultiActionAreaCard() {
         <CardMedia
           component="img"
           height="400"
-          image="./assets/mabout.png"
+          // image="./assets/mabout.png"
+          image="https://source.unsplash.com/600x600/?mobile,phone"
           alt="green iguana"
         />
         
@@ -45,7 +46,8 @@ export default function MultiActionAreaCard() {
         <CardMedia
           component="img"
           height="400"
-          image="./assets/mdesk.png"
+          // image="./assets/mdesk.png"
+          image = "https://source.unsplash.com/900x600/?card,money"
           alt="green iguana"
         />
         <CardContent>
@@ -72,7 +74,8 @@ export default function MultiActionAreaCard() {
         <CardMedia
           component="img"
           height="300"
-          image="./assets/abtt.gif"
+          // image="./assets/abtt.gif"
+          image = "https://source.unsplash.com/900x600/?coffee,food"
           alt="green iguana"
         />
         

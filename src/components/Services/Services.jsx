@@ -43,7 +43,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/transfer.jpg"
+          // image="./assets/transfer.jpg"
+          image="https://source.unsplash.com/800x600/?money"
           alt="green iguana"
         />
         <CardContent>
@@ -64,7 +65,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/forex.jpg"
+          // image="./assets/forex.jpg"
+          image="https://source.unsplash.com/800x600/?forex"
           alt="green iguana"
         />
         <CardContent>
@@ -85,7 +87,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/online.jpg"
+          // image="./assets/online.jpg"
+          image="https://source.unsplash.com/800x600/?online shopping"
           alt="green iguana"
         />
         <CardContent>
@@ -106,7 +109,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/medicine.jpg"
+          // image="./assets/medicine.jpg"
+          image="https://source.unsplash.com/800x600/?medicine"
           alt="green iguana"
         />
         <CardContent>
@@ -130,7 +134,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/cinema.jpg"
+          // image="./assets/cinema.jpg"
+          image="https://source.unsplash.com/800x600/?movie"
           alt="green iguana"
         />
         <CardContent>
@@ -151,7 +156,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/retail.png"
+          // image="./assets/retail.png"
+          image="https://source.unsplash.com/800x600/?shopping"
           alt="green iguana"
         />
         <CardContent>
@@ -172,7 +178,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/food.jpg"
+          // image="./assets/food.jpg"
+          image="https://source.unsplash.com/800x600/?food"
           alt="green iguana"
         />
         <CardContent>
@@ -193,7 +200,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/free.jpg"
+          // image="./assets/free.jpg"
+          image="https://source.unsplash.com/800x600/?kids"
           alt="green iguana"
         />
         <CardContent>
@@ -216,7 +224,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/rewards.jpg"
+          // image="./assets/rewards.jpg"
+          image="https://source.unsplash.com/800x600/?gifts"
           alt="green iguana"
         />
         <CardContent>
@@ -237,7 +246,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/insur.jpg"
+          // image="./assets/insur.jpg"
+          image="https://source.unsplash.com/800x600/?insurance"
           alt="green iguana"
         />
         <CardContent>
@@ -258,7 +268,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/credit.jpg"
+          // image="./assets/credit.jpg"
+          image="https://source.unsplash.com/800x600/?loan"
           alt="green iguana"
         />
         <CardContent>
@@ -279,7 +290,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="./assets/qr.jpg"
+          // image="./assets/qr.jpg"
+          image="https://source.unsplash.com/800x600/?mobile"
           alt="green iguana"
         />
         <CardContent>

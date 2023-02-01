@@ -38,7 +38,7 @@ const SignUp = () => {
     //Regex Variable to compare
     var regExEmail = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/
     var regexUsername = /[A-Za-z0-9]{3,30}/
-    var regexName = /[A-Za-z]{3,30}/
+    var regexName = /^[A-Z a-z]{3,30}/
     var regex10digits = /^[0-9]\d{09}$/ // to validate phone no 
     var regExPwd = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#%^&])(?!.* ).{8,20}$/
 
@@ -83,7 +83,7 @@ const SignUp = () => {
         else{
             var newUser = {
                 "id": formData.userid,
-                "name": formData.Name,
+                "name": formData.name,
                 "emailid": formData.useremail,
                 "mobno":formData.MobileNumber,
                 "password": formData.password
@@ -97,28 +97,21 @@ const SignUp = () => {
 
                localStorage.setItem("email",formData.useremail) 
             navigate("/Verification")
-            alert("Sign Up successful. Redirecting to UPI PIN...")
-
-        
+            alert("Sign Up successful. Redirecting to UPI PIN...")        
         }
     }
-
 
 
     return (
         
     <>
-        <div>
-            
-        </div>
-
-
+       
         <div className='container-fluid p-5 col-md-12' style={{background:"#2d143e"}}>
             <Row className="mt-5">
                 <Col lg={8} md={6} sm={12} className="container p-3 m-auto shadow-lg p-3 mb-5 bg-body rounded" style={{background:"white"}}>
                     <Form onSubmit={handleSubmit(Register)}>
                         <h3 className='text-center text-dark' >User Sign Up</h3>
-                        <h6 className='mb-3 text-center ' >Welcome to world of Bank Made Easy</h6>
+                        <h6 className='mb-3 text-center ' >Welcome to NatWest One</h6>
                 
                                 <FloatingLabel controlId="floatingInput" label="Email Address" className="mb-4 " autoComplete="off" >
                                 <Form.Control type="email" placeholder="name@example.com" onChange={(e) => setEmail(e.target.value)} 
